@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1065900488298",
+    "project_id": "landmark-genie",
+    "storage_bucket": "landmark-genie.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1065900488298:android:bfb4a599278a7d11f7bc13",
+        "android_client_info": {
+          "package_name": "com.example.landmark_genie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1065900488298-n7ho62k8rhhi6sn77sbc8do5953rjkik.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBY9tQxBcDzVeOxHvCLaoU903pdXcC6JNc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1065900488298-n7ho62k8rhhi6sn77sbc8do5953rjkik.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/lg_background"
+    tools:context=".Options">
+
+    <EditText
+        android:id="@+id/txtMetric"
+        android:layout_width="225dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginEnd="104dp"
+        android:ems="10"
+        android:text="Kilometres or Miles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblmetrix" />
+
+    <TextView
+        android:id="@+id/lblFullName2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="82dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="263dp"
+        android:text="Landmark:"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnSave" />
+
+    <Button
+        android:id="@+id/btnAdd2"
+        android:layout_width="114dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="166dp"
+        android:text="ADD"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/YELLOW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtFav" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="114dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginEnd="164dp"
+        android:text="Save"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/YELLOW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtMetric" />
+
+    <Button
+        android:id="@+id/btnFilter"
+        android:layout_width="114dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="166dp"
+        android:text="Filter"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/YELLOW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtLand" />
+
+    <EditText
+        android:id="@+id/txtFav"
+        android:layout_width="225dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginEnd="104dp"
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFullName3"
+        tools:text="Type the landmark to add" />
+
+    <TextView
+        android:id="@+id/lblFullName3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="201dp"
+        android:text="Favourite Landmark:"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnFilter" />
+
+    <TextView
+        android:id="@+id/lblmetrix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="280dp"
+        android:text="Metrics:"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/logo4" />
+
+    <EditText
+        android:id="@+id/txtLand"
+        android:layout_width="225dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="82dp"
+        android:layout_marginEnd="104dp"
+        android:ems="10"
+        android:text="Historical, Modern, Popular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/lblFullName2" />
+
+    <Button
+        android:id="@+id/btnSignOut2"
+        android:layout_width="114dp"
+        android:layout_height="47dp"
+        android:layout_marginStart="200dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="SignOut"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/YELLOW"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/logo4"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo4"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.001"
+        app:srcCompat="@mipmap/lg_foreground" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
